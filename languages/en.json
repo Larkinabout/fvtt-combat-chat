@@ -1,3 +1,14 @@
 {
-    "MODULE.hello": "hello"
+  "combatChat": {
+    "settings": {
+      "showChatOnCombatTrackerTab" : {
+        "name": "Show chat on combat tracker tab",
+        "hint": "Displays the chat log below the combat tracker"
+    	},
+      "showChatInputInSplitView" : {
+        "name": "Show chat input on combat tracker tab",
+        "hint": "Displays the chat input box below the chat log (as normal) on the combat tracker tab. Only takes effect when the above option is enabled."
+    	}
+    }
+  }
 }
