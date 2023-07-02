@@ -1,14 +1,18 @@
 {
   "combatChat": {
     "settings": {
-      "showChatOnCombatTrackerTab" : {
-        "name": "Show chat on combat tracker tab",
-        "hint": "Displays the chat log below the combat tracker"
+      "showChatOnCombatTrackerTab": {
+        "name": "Chat Log Display",
+        "hint": "Choose whether to display the chat log"
     	},
-      "showChatInputInSplitView" : {
-        "name": "Show chat input on combat tracker tab",
-        "hint": "Displays the chat input box below the chat log (as normal) on the combat tracker tab. Only takes effect when the above option is enabled."
-    	}
+      "showChatInputInSplitView": {
+        "name": "Chat Input Display",
+        "hint": "When the chat log is displayed, choose whether to display the chat input"
+    	},
+      "restyleDiceTray": {
+        "name": "Restyle Dice Tray",
+        "hint": "Choose whether to restyle the dice tray"
+      }
     }
   }
 }

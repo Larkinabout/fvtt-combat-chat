@@ -1,13 +1,12 @@
 {
   "id": "combat-chat",
   "title": "Combat Chat",
-  "description": "A simple Foundry VTT utility to display the chat log and form on the combat tracker tab",
-  "version": "0.0",
+  "description": "A simple Foundry VTT utility to display the chat log on the combat tracker tab",
+  "version": "This is auto replaced",
   "library": "false",
-  "manifestPlusVersion": "1.2.0",
   "compatibility": {
     "minimum": 10,
-    "verified": 10
+    "verified": 11.304
   },
   "authors": [
     {
@@ -24,7 +23,8 @@
     "scripts/combat-chat.js"
   ],
   "styles": [
-    "styles/combat-chat.css"
+    "styles/combat-chat.css",
+    "styles/combat-chat-dice-tray.css"
   ],
   "languages": [
     {
@@ -34,8 +34,8 @@
     }
   ],
   "license": "https://www.gnu.org/licenses/gpl-3.0.en.html",
-  "url": "https://github.com/Larkinabout/fvtt-combat-chat",
-  "manifest": "https://github.com/Larkinabout/fvtt-combat-chat/releases/latest/download/module.json",
-  "download": "https://github.com/Larkinabout/fvtt-combat-chat/releases/latest/download/module.zip",
+  "url": "This is auto replaced",
+  "manifest": "This is auto replaced",
+  "download": "This is auto replaced",
   "readme": "https://github.com/Larkinabout/fvtt-combat-chat#readme"
 }
