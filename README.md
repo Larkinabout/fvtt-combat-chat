@@ -11,4 +11,4 @@ A simple Foundry VTT utility to display the chat log and form on the combat trac
 - Each user can enable or disable the utility in the module's settings.
 
 # Acknowledgements
-This is a copy of Oromis' original [Combat Focus](https://github.com/Oromis/foundry-combat-focus/) module. All thanks go to Oromis for developing this module in the first place.
+This is an update of Oromis' original [Combat Focus](https://github.com/Oromis/foundry-combat-focus/) module. All thanks go to Oromis for developing this module in the first place.
