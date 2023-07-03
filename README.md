@@ -1,6 +1,8 @@
+![Downloads](https://img.shields.io/github/downloads/Larkinabout/fvtt-combat-chat/latest/module.zip?color=2b82fc&label=DOWNLOADS&style=for-the-badge) [![Forge Installs](https://img.shields.io/badge/dynamic/json?label=Forge%20Installs&query=package.installs&suffix=%25&url=https%3A%2F%2Fforge-vtt.com%2Fapi%2Fbazaar%2Fpackage%2Fcombat-chat&colorB=448d34&style=for-the-badge)](https://forge-vtt.com/bazaar#package=combat-chat)
+
 # Combat Chat
 
-A simple Foundry VTT utility to display the chat log and form on the combat tracker tab.
+A simple Foundry VTT utility to display the chat log and combat tracker together on the combat tracker tab.
 
 ![Combat Chat Sidebar](./images/combat-chat-sidebar.png)
 
