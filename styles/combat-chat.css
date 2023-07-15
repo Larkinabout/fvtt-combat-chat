@@ -8,40 +8,42 @@
     --sidebar-tab-height: 24px;
 }
 
-.combat-sidebar .combat-tracker-header {
+#combat.combat-sidebar .combat-tracker-header {
     border-bottom: 1px solid var(--color-border-dark-1);
-    line-height: 15px;
+    line-height: normal;
 }
 
-.combat-sidebar #combat-controls {
+#combat.combat-sidebar #combat-controls {
+    min-height: 0;
     padding: 0;
 }
 
-.combat-sidebar #combat-tracker {
+#combat.combat-sidebar #combat-tracker {
     padding: 0;
 }
 
-.combat-sidebar #combat-controls a {
+#combat.combat-sidebar #combat-controls a {
     font-size: 1rem !important;
     line-height: 20px !important;
 }
 
-.combat-sidebar .combat-tracker-header .encounters {
+#combat.combat-sidebar .combat-tracker-header .encounters {
     align-items: center;
     height: 20px;
 }
 
-.combat-sidebar .combat-tracker-header nav.encounters h4 {
+#combat.combat-sidebar .combat-tracker-header nav.encounters h4 {
     font-size: var(--font-size-13);
 }
 
-.combat-sidebar .combat-tracker-header a.combat-button.combat-cycle {
+#combat.combat-sidebar .combat-tracker-header a.combat-button.combat-cycle {
     font-size: var(--font-size-15);
     transform: translateY(-1px);
 }
 
-.combat-sidebar .combat-tracker-header a.combat-button {
+#combat.combat-sidebar .combat-tracker-header a.combat-button {
     font-size: var(--font-size-13);
+    padding-top: 2px;
 }
 
 .combat-chat #chat-form {
@@ -86,7 +88,8 @@
 }
 
 .combat-chat.hide-chat-input #chat-log ~ *,
-body.emu.e-body#emu #sidebar #chat.combat-chat.hide-chat-input #chat-log ~ * { /* Ernie's Modern UI compatibility */
+body.emu.e-body#emu #sidebar #chat.combat-chat.hide-chat-input #chat-log ~ * {
+    /* Ernie's Modern UI compatibility */
     display: none !important;
 }
 
