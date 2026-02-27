@@ -4,7 +4,7 @@
 
 A simple Foundry VTT utility to display the chat log and combat tracker together on the combat tracker tab.
 
-![Combat Chat Sidebar](./images/combat-chat-sidebar.png)
+![Combat Chat Sidebar](./.github/readme/combat-chat-sidebar.png)
 
 # Features
 

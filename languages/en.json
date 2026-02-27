@@ -2,16 +2,12 @@
   "combatChat": {
     "settings": {
       "showChatOnCombatTrackerTab": {
-        "name": "Chat Log Display",
-        "hint": "Choose whether to display the chat log"
+        "name": "Display Chat Log",
+        "hint": "Choose whether to display the chat log on the combat tracker tab"
     	},
       "showChatInputInSplitView": {
-        "name": "Chat Input Display",
+        "name": "Display Chat Input",
         "hint": "When the chat log is displayed, choose whether to display the chat input"
-    	},
-      "restyleDiceTray": {
-        "name": "Restyle Dice Tray",
-        "hint": "Choose whether to restyle the dice tray"
       }
     }
   }

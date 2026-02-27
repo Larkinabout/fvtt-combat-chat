@@ -1,114 +1,57 @@
+/* -------------------------------------------- */
+/*  Chat Element                                */
+/* -------------------------------------------- */
+
 #chat {
     order: 2; /* Place the chat below the combat tracker */
 }
 
-#sidebar-tabs {
-    box-shadow: 0 0 5px var(--color-shadow-primary);
-    margin: 0;
-    --sidebar-tab-height: 24px;
-}
-
-#combat.combat-sidebar .combat-tracker-header {
-    border-bottom: 1px solid var(--color-border-dark-1);
-    line-height: normal;
-}
-
-#combat.combat-sidebar #combat-controls {
-    min-height: 0;
+#chat.combat-chat {
+    gap: 0;
     padding: 0;
-}
-
-#combat.combat-sidebar #combat-tracker {
-    padding: 0;
-}
-
-#combat.combat-sidebar #combat-controls a {
-    font-size: 1rem !important;
-    line-height: 20px !important;
-}
-
-#combat.combat-sidebar .combat-tracker-header .encounters {
-    align-items: center;
-    height: 20px;
-}
-
-#combat.combat-sidebar .combat-tracker-header nav.encounters h4 {
-    font-size: var(--font-size-13);
-}
-
-#combat.combat-sidebar .combat-tracker-header a.combat-button.combat-cycle {
-    font-size: var(--font-size-15);
-    transform: translateY(-1px);
-}
-
-#combat.combat-sidebar .combat-tracker-header a.combat-button {
-    font-size: var(--font-size-13);
-    padding-top: 2px;
-}
-
-.combat-chat #chat-form {
-    height: 42px;
-    flex-basis: 42px;
-}
-
-.combat-chat #chat-message {
-    min-height: 42px;
-}
-
-.combat-chat {
-    position: relative;
-    min-height: 6px;
-}
-
-.combat-chat .jump-to-bottom {
-    background-color: unset;
-    border-top: 2px groove var(--color-border-dark-4);
-    border-bottom: 2px groove var(--color-border-dark-4);
-    flex: 0;
-    padding: 3px;
-    position: unset;
-}
-
-.combat-chat #chat-controls {
-    align-items: center;
-    display: flex;
-    flex: 0;
-    justify-content: center;
-    margin: 0 3px;
-}
-
-.combat-chat #chat-controls .chat-control-icon {
-    align-items: 0;
-    display: flex;
-    justify-content: center;
-}
-
-.combat-chat #chat-form {
-    margin: 0 3px 3px 3px;
-}
-
-.combat-chat.hide-chat-input #chat-log ~ *,
-body.emu.e-body#emu #sidebar #chat.combat-chat.hide-chat-input #chat-log ~ * {
-    /* Ernie's Modern UI compatibility */
-    display: none !important;
 }
 
 #chat:not(.combat-chat) #combat-chat-divider {
     display: none;
 }
 
+/* -------------------------------------------- */
+/*  Combat Chat                                 */
+/* -------------------------------------------- */
+
+.combat-chat .chat-scroll {
+    margin-bottom: 0.5rem;
+}
+
+.combat-chat .chat-log .message {
+    margin: 0;
+}
+
+.combat-chat .chat-form {
+    margin: 0 3px 3px 3px;
+}
+
+.combat-chat.hide-chat-input .chat-form {
+    display: none !important;
+}
+
+/* -------------------------------------------- */
+/*  Divider                                     */
+/* -------------------------------------------- */
+
 #combat-chat-divider {
-    border-bottom: 2px groove var(--color-border-dark-4);
-    border-top: 2px groove var(--color-border-dark-4);
+    align-items: center;
     cursor: ns-resize;
     display: flex;
     flex: none;
+    justify-content: center;
+    padding: 1px 0;
     width: 100%;
 }
 
-#combat-chat-divider div {
-    background: var(--color-text-light-2);
-    height: 2px;
-    margin: auto;
-    width: 10%;
+#combat-chat-divider i {
+    color: var(--color-text-light-0);
+    font-size: var(--font-size-16);
+    text-shadow: 0 0 3px var(--color-shadow-primary);
+    padding: 0;
 }
